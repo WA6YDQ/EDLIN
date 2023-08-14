@@ -14,15 +14,25 @@ itself on a line will return to command mode.
 In command mode, the following single letters apply:
 
 q    Exit edlin (any modified file will NOT be saved. There are no warnings.)
+
 w [filename]  Write the text buffer to supplied filename
+
 l [filename]  Load the file filename to the buffer. The buffer is NOT cleared first.
+
 n    New. Delete the current buffer, reset pointers.
+
 p    Print the buffer (ie list). The buffer will be displayed in it's entirety.
+
 a    Append text to the end of the buffer.
+
 s [substring]   Search for a string in the buffer.
+
 v    Show buffer stats (buffer size)
+
 n-m d    Delete lines n-m   ie 10-20d  will delete lines 10 thru 20
+
 n-m p    Print lines n-m    ie 15-40p  will display lines 15 thru 40 on the terminal
+
 n i      Insert lines BEFORE line n  ie 15i  start inserting BEFORE line 15
 
 NOTE: a comma can be used in place of the dash for the above 3 commands.
@@ -41,5 +51,3 @@ To install to /usr/local/bin, type make install
 Enjoy!
 
 - Kurt
-
-There 
